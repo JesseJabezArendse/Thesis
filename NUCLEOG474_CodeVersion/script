@@ -1,0 +1,10 @@
+config load "C:\Users\JesseJabezArendse\Desktop\EEE4022S\NUCLEOG474\NUCLEOG474.ioc"
+project toolchain STM32CubeIDE
+
+SetStructure Advanced
+
+project setCustomFWPath "C:\MATLAB\R2022a\stm_firmware\STM32Cube_FW_G4_V1.5.0"
+
+project generate 
+
+exit wait
